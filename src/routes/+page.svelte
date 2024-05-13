@@ -1,4 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev" class="h-52">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+// home page
 
-<h3 class="bg-pink-400">DAVE</h3>
+
+</script>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holibobber</title>
+</head>
+
+<h1 class="text-center font-bold text-xl py-2">Holibobber</h1>
+<p class="px-6 text-justify">Unlock the full potential of your annual leave this year. Take longer and bigger breaks around national holidays for extended and more frequent getaways. It's time to maximize your time off and create memories that last a lifetime!</p>
+<slot/>
+
