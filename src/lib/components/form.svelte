@@ -1,5 +1,0 @@
-<!-- input form -->
-<script>
-    
-</script>
-

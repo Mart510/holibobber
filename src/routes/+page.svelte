@@ -1,4 +1,8 @@
 <script lang="ts">
+// import block
+import Inputform from "$lib/components/Inputform.svelte";
+
+
 // home page
 
 
@@ -12,5 +16,6 @@
 
 <h1 class="text-center font-bold text-xl py-2">Holibobber</h1>
 <p class="px-6 text-justify">Unlock the full potential of your annual leave this year. Take longer and bigger breaks around national holidays for extended and more frequent getaways. It's time to maximize your time off and create memories that last a lifetime!</p>
-<slot/>
+<Inputform>
+</Inputform>
 
